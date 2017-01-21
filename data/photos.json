@@ -1,16 +1,19 @@
 {
   "photos": [{
     "title": "Estrellita",
+    "slug": "estrellita",
     "caption": "Test 1 caption",
     "url": "http://photo-portfolio-assets.s3.amazonaws.com/fulls/DSC08193-portfolio-full.jpg",
     "thumb_url": "http://photo-portfolio-assets.s3.amazonaws.com/thumbs/DSC08193-portfolio-thumb.jpg"
   }, {
     "title": "Tim",
+    "slug": "tim",
     "caption": "Test a caption",
     "url": "http://photo-portfolio-assets.s3.amazonaws.com/fulls/DSC08113-portfolio-full.jpg",
     "thumb_url": "http://photo-portfolio-assets.s3.amazonaws.com/thumbs/DSC08113-portfolio-thumb.jpg"
   }, {
     "title": "Tyler",
+    "slug": "tyler",
     "caption": "Test a caption",
     "url": "http://photo-portfolio-assets.s3.amazonaws.com/fulls/DSC08123-portfolio-full.jpg",
     "thumb_url": "http://photo-portfolio-assets.s3.amazonaws.com/thumbs/DSC08123-portfolio-thumb.jpg"

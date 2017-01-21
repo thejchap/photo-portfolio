@@ -6,8 +6,16 @@ class App < Sinatra::Base
     set :photos, photos
   end
 
-  get '/' do
+  before do
     @photos = settings.photos
+  end
+
+  get '/' do
+    erb :index
+  end
+
+  get '/photo/:slug' do
+    @photo = @photos.find { |photo| photo.slug == params[:slug] }
 
     erb :index
   end
